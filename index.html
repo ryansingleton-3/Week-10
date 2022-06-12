@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylsheet" href="style.css">
+    <title>To-Do App</title>
+</head>
+<body class="container">
+    
+    <br>
+    
+    </div>
+    <div class="card">
+    <h1 class="display-2 text-center">Ryan's To-Do App</h1>
+    </div>
+    <br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-start-date">Start Date</label>
+                        <input type="date" class="form-control" id="new-start-date">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-due-date">Due Date</label>
+                        <input type="date" class="form-control" id="new-due-date">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-task">Task</label>
+                        <input type="text" class="form-control" id="new-task" placeholder="Task">
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <button id="add" class="btn btn-primary form-control" style="margin-top: 10px;">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <table id="list" class="table table-striped" style="margin-top: 50px;">
+        <tr>
+            <th>Task</th>
+            <th>Date Created</th>
+            <th>Start Date</th>
+            <th>Due Date</th>
+            <th>Actions</th>
+        </tr>
+
+    </table>
+
+    <!-- Footer -->
+<footer class="bg-primary text-center footer" style="position: fixed; bottom: 0; left: 0; width: 100%;">
+    
+
+    <!-- Copyright -->
+    <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a href="https://www.linkedin.com/in/ryansingleton3/" style="text-decoration: underline; color: white;">Ryan Singleton</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="todo.js"></script>
+</body>
+
+</html>
